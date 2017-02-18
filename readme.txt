@@ -4,3 +4,4 @@ git status
 git diff filename
 git log --pretty=oneline
 git reflog
+git checkout
