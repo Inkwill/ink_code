@@ -20,3 +20,9 @@ int int_shifts_are_arithmetic();
 
 unsigned srl(unsigned x, int k);
 unsigned sra(int x, int k);
+int any_odd_one(unsigned x);
+int odd_ones(unsigned x);
+int bad_int_size_is_32();
+int lower_one_mask(int n);
+unsigned rotate_left(unsigned x, int n);
+int fits_bits(int x, int n);
