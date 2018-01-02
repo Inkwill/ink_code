@@ -4,8 +4,8 @@
 
 int	main(int argc, char const *argv[])
 {
-	unsigned n = 0x12345678;
-	printf("0x%X  leftmost_one ? -> %d\n", n,leftmost_one(n));
+	unsigned n = 0x80000001;
+	printf("0x%X  leftmost_one ? -> 0x%X\n", n,leftmost_one(n));
 	return 0;
 }
 
@@ -15,8 +15,13 @@ int	main(int argc, char const *argv[])
 * For example, 0xFF00 -> 0x8000, and 0x6600 -> 0x4000.
 * If x = 0, then return 0.
 */
-int leftmost_one(unsigned x){
+unsigned leftmost_one(unsigned x){
 
-	
-	return 0;
+	x |= (x>>1);
+	x |= (x>>2);
+	x |= (x>>4);
+	x |= (x>>8);
+	x |= (x>>16);
+	x ^= (x>>1);
+	return x;
 }
