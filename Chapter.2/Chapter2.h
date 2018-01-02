@@ -62,3 +62,5 @@ typedef unsigned float_bits;
 float_bits float_denorm_zero(float_bits f);
 
 float_bits float_negate(float_bits f);
+
+float_bits float_absval(float_bits f);

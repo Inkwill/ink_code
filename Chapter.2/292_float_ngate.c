@@ -2,8 +2,13 @@
 
 int main(int argc, char const *argv[])
 {
-	float f = 3.1415927f;
-	printf("0x%X\n", float_denorm_zero((float_bits)f2u(f)));
+	for (unsigned i = 0; i < (unsigned)-1; ++i)
+	{
+		if(float_negate((float_bits)i)^f2u((-u2f(i)))){
+			printf("0x%X: 0x%X,%f\n", i,float_negate((float_bits)(i)),u2f(i));
+			break;
+		}
+	}
 	return 0;
 }
 
