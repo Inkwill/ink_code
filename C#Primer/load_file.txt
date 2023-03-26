@@ -1,0 +1,13 @@
+Microsoft (R) Visual C# Compiler version 4.8.4084.0
+
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+Chapter1.cs(10,8): warning CS0219: 变量“ traceOn ”已赋值，但其值从未使用过
+Chapter1.cs(11,8): warning CS0219: 变量“ spyOn ”已赋值，但其值从未使用过
+Chapter1.cs(26,5): error CS0163: 控制不能从一个 case 标签(“case "test":”)贯穿到另一个 case 标签
+[Finished in 107ms]

@@ -1,0 +1,7 @@
+STRING	STRING	INT	INT
+ID	Name	Lv	Time
+id	name	needlv	costTime
+KeJu	科举	11	30
+QiJu	棋局	15	20
+MaZei	马贼	16	30
+MeiRi	每日任务	1	50

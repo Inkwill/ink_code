@@ -1,0 +1,1 @@
+locust -f Loadtests\l_ranklist.py --slave --master-host=10.12.24.125
