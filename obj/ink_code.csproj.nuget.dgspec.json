@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyCode\\ink_code\\ink_code.csproj": {}
+    "D:\\ink_code\\ink_code.csproj": {}
   },
   "projects": {
-    "D:\\MyCode\\ink_code\\ink_code.csproj": {
+    "D:\\ink_code\\ink_code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyCode\\ink_code\\ink_code.csproj",
+        "projectUniqueName": "D:\\ink_code\\ink_code.csproj",
         "projectName": "ink_code",
-        "projectPath": "D:\\MyCode\\ink_code\\ink_code.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MyCode\\ink_code\\obj\\",
+        "projectPath": "D:\\ink_code\\ink_code.csproj",
+        "packagesPath": "C:\\Users\\inkse\\.nuget\\packages\\",
+        "outputPath": "D:\\ink_code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\inkse\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,16 +43,35 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

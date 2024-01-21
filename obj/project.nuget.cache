@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "CuILiNy0heEka/HWiuCq8UXGa/sdee3GVPeePdTbZYFQ4VGWhRVRPip/rlVXi+kHKs41EsyqmAm/yxPJ17OnpA==",
+  "dgSpecHash": "fkwUTwItJJHYxsanhCPQN0NEWIzYm+NFWH25iE1as4xV6z5YURMaUGqknlnH/dL8QSxTV2aWLovuPIVIN11A+w==",
   "success": true,
-  "projectFilePath": "D:\\MyCode\\ink_code\\ink_code.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\ink_code\\ink_code.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\inkse\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\inkse\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\inkse\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\inkse\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
